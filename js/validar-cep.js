@@ -13,7 +13,7 @@ if (!("erro" in conteudo)) {
     document.getElementById('inputCity').value=(conteudo.localidade);
     document.getElementById('inputUF').value=(conteudo.uf);
 
-} 
+}
 else {
 
     limpa_formulário_cep();
