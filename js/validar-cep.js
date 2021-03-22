@@ -23,6 +23,7 @@ else {
 
 function mascaraCep(){
     var cep = document.getElementById('inputCEP').value;
+
      if(cep.length==5){
       document.getElementById('inputCEP').value = cep +'-';
  }
