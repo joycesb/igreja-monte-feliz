@@ -41,6 +41,13 @@ footer{
     width: 150px;
     height: 150px;
 }
+.form-check{
+    margin-left: 10px;
+    margin-right: 40px;
+}
+#radioBatizado{
+    margin-left: 10px;
+}
 @media screen and (max-width: 480px){
     .capa, footer, #botao{
         width: auto;
