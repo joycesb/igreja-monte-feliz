@@ -23,7 +23,7 @@ function enviar(){
     var situacao= $('#txtCel').val();
 
     $.ajax({
-        url : "https://armc-api-dev.heltec.com.br/api/auth/teste",
+        url : "https://monte-feliz-form-api.herokuapp.com/api/Members",
         method : "POST",
         contentType : 'application/json',
         dataType : 'json',
@@ -41,6 +41,7 @@ function enviar(){
             { "telefone":"${tel}"},
             { "celular":"${cel}"},
             { "bairro":"${bairro}"},
+            { "cidade":"${cidade}"},
             { "complemento":"${complemento}"},
             { "estado":"${estado}"},
             { "batizado":"${batizado}"},
